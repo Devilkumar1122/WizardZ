@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 75px;
+}
+
+nav h1 {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+nav h1 i {
+  display: inline-block;
+  transform: rotate(45deg);
+  font-size: 33px;
+}
+
+nav .part2 {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+nav .part2 h4 {
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+nav .part2 button {
+  padding: 15px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid #111;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.center-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 75px;
+  gap: 20px;
+}
+
+.center-part1 {
+  width: 40%;
+}
+
+.center-part1 h1 {
+  font-size: 45px;
+  padding: 30px 0;
+  line-height: 1.2;
+}
+
+.center-part1 p {
+  width: 85%;
+  font-size: 20px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.center-part1 button {
+  padding: 20px 45px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background-color: #111;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.center-part2 {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.center-part2 img {
+  height: 450px;
+  max-width: 100%;
+}
+
+/* Client Logos */
+.section1bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 75px 0;
+}
+
+.section1bottom img {
+  width: 125px;
+}
+
+/* Services Section */
+.section2 .services {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 40px 75px;
+  margin-top: 30px;
+}
+
+.services h3 {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 5px 10px;
+  background-color: #9ae975;
+  border-radius: 5px;
+}
+
+.services p {
+  width: 30%;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Container for Cards */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 60px 91px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Card Element */
+.elem {
+  flex-shrink: 0;
+  width: 49%;
+  height: 300px;
+  display: flex;
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 0 10px 0 black;
+}
+
+.elem-part1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.elem-part1 h3 {
+  font-size: 25px;
+  font-weight: 500;
+  width: 65%;
+  padding: 0 5px;
+  border-radius: 4px;
+  background-color: #9ae975;
+}
+
+.elem-part1 h4 {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.elem-part1 h4 i {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #111;
+  color: #9ae975;
+}
+
+.elem-part2 {
+  width: 50%;
+}
+
+.elem-part2 img {
+  height: 100%;
+}
+
+/* Dark Theme Variation */
+.black {
+  background-color: #111;
+}
+
+.black h3 {
+  background-color: #fff;
+}
+
+.black h4 {
+  color: #fff;
+}
+
+.black h4 i {
+  color: #111;
+  background-color: #fff;
+}
+
+.section2 .case-services {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 40px 75px;
+  margin-top: 30px;
+}
+.case-services h3 {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 5px 10px;
+  background-color: #9ae975;
+  border-radius: 5px;
+}
+
+.case-services p {
+  width: 30%;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+footer{
+  padding: 40px 75px;
+  padding-bottom: 5px;
+}
+.footer-content{
+    background-color: #111;
+    min-height: 250px;
+    width: 100%;
+    border-radius: 33px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.footer-content-ul{
+  flex-basis: 30%;
+  padding: 50px 30px;
+  font-size: 18px;
+  list-style:  none;
+}
+.footer-content-ul li i{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #111;
+  color: #9ae975;
+}
+.li-i{
+  margin-top: 10px;
+}
+.vl {
+  border-left: 1px solid white;
+  height: 150px;
+}
